@@ -34,9 +34,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(434, 217);
+            this.button1.Location = new System.Drawing.Point(434, 235);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(202, 100);
+            this.button1.Size = new System.Drawing.Size(202, 108);
             this.button1.TabIndex = 0;
             this.button1.Text = "开始";
             this.button1.UseVisualStyleBackColor = true;
@@ -44,16 +44,17 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(356, 406);
+            this.textBox1.Location = new System.Drawing.Point(320, 361);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(384, 21);
+            this.textBox1.Size = new System.Drawing.Size(483, 257);
             this.textBox1.TabIndex = 1;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1088, 629);
+            this.ClientSize = new System.Drawing.Size(1088, 681);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
